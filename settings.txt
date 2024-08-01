@@ -10,45 +10,432 @@ Your final settings.txt will look something like this when you are finished:
 Wallpaper 1:
 
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let bgColor = "#FFF5F8"; // light honeydew green colour for the Background
+
+let catColor = "#FFFF91"; // for the Cat
+let catPosX = 220; // X coord of the Cat
+let catPosY = 280; // Y coord of the Cat
+let catScale = 8; // scale of the Cat
+let catHidden = false;
+
+let heartColor = "#ABCFFF"; // // for the Heart
+let heartPosX = 410; // X coord of the Heart
+let heartPosY = 200; // Y coord of the Heart
+let heartScale = 8; // scale of the Heart
+let heartHidden = false;
+
+let dogColor = "#B8FCE2"; // for the Dog
+let dogPosX = 20; // X coord of the Dog
+let dogPosY = 400; // Y coord of the Dog
+let dogScale = 8; // scale of the Dog
+let dogHidden = false;
+
+let starColor = "#fec6de"; // for the Star
+let starPosX = 250; // X coord of the Star
+let starPosY = 90; // Y coord of the Star
+let starScale = 8; // scale of the Star
+let starHidden = false;
+
+let heart2Color = "#FD9BC5"; // for the 2nd Heart
+let heart2PosX = 80; // X coord of the 2nd Heart
+let heart2PosY = 180; // Y coord of the 2nd Heart
+let heart2Scale = 8; // scale of the 2nd Heart
+let heart2Hidden = false;
 
 function setup_wallpaper(pWallpaper) {
+  createCanvas(2000, 1000);
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width = 600;
+  pWallpaper.grid_settings.cell_height = 400;
+  pWallpaper.grid_settings.row_offset = 100;
 }
 
 /////////////////////////////////
 
 Wallpaper 2:
-
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let bgColor = "#f3dfe7"; // light honeydew green colour for the Background
+
+let catColor = "#F5f4ce"; // for the Cat
+let catPosX = 200; // X coord of the Cat
+let catPosY = 160; // Y coord of the Cat
+let catScale = 7; // scale of the Cat
+let catHidden = false;
+
+let heartColor = "#c7e8fc"; // // for the Heart
+let heartPosX = 370; // X coord of the Heart
+let heartPosY = 60; // Y coord of the Heart
+let heartScale = 7; // scale of the Heart
+let heartHidden = false;
+
+let dogColor = "#d8ede8"; // for the Dog
+let dogPosX = 10; // X coord of the Dog
+let dogPosY = 250; // Y coord of the Dog
+let dogScale = 7; // scale of the Dog
+let dogHidden = false;
+
+let starColor = "#f6d3ed"; // for the Star
+let starPosX = 380; // X coord of the Star
+let starPosY = 280; // Y coord of the Star
+let starScale = 7; // scale of the Star
+let starHidden = false;
+
+let heart2Color = "#fa9bcf"; // for the 2nd Heart
+let heart2PosX = 10; // X coord of the 2nd Heart
+let heart2PosY = 50; // Y coord of the 2nd Heart
+let heart2Scale = 7; // scale of the 2nd Heart
+let heart2Hidden = false;
 
 function setup_wallpaper(pWallpaper) {
+  createCanvas(2000, 1000);
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width = 600;
+  pWallpaper.grid_settings.cell_height = 400;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 3:
+//your parameter variables go here!
+let bgColor = "#fdffb6"; // light honeydew green colour for the Background
+
+let catColor = "#caffbf"; // for the Cat
+let catPosX = 150; // X coord of the Cat
+let catPosY = 160; // Y coord of the Cat
+let catScale = 10; // scale of the Cat
+let catHidden = false;
+
+let heartColor = "#ffadad"; // // for the Heart
+let heartPosX = 370; // X coord of the Heart
+let heartPosY = 60; // Y coord of the Heart
+let heartScale = 5; // scale of the Heart
+let heartHidden = false;
+
+let dogColor = "#a0c4ff"; // for the Dog
+let dogPosX = 10; // X coord of the Dog
+let dogPosY = 250; // Y coord of the Dog
+let dogScale = 5; // scale of the Dog
+let dogHidden = false;
+
+let starColor = "#ffd6a5"; // for the Star
+let starPosX = 380; // X coord of the Star
+let starPosY = 280; // Y coord of the Star
+let starScale = 4; // scale of the Star
+let starHidden = false;
+
+let heart2Color = "#ffc6ff"; // for the 2nd Heart
+let heart2PosX = 10; // X coord of the 2nd Heart
+let heart2PosY = 50; // Y coord of the 2nd Heart
+let heart2Scale = 7; // scale of the 2nd Heart
+let heart2Hidden = false;
+
+function setup_wallpaper(pWallpaper) {
+  createCanvas(2000, 1000);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 600;
+  pWallpaper.grid_settings.cell_height = 400;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 4:
+//your parameter variables go here!
+let bgColor = "#e5fcff"; // light honeydew green colour for the Background
+
+let catColor = "#caffbf"; // for the Cat
+let catPosX = 250; // X coord of the Cat
+let catPosY = 200; // Y coord of the Cat
+let catScale = 5; // scale of the Cat
+let catHidden = false;
+
+let heartColor = "#ffadad"; // // for the Heart
+let heartPosX = 400; // X coord of the Heart
+let heartPosY = 100; // Y coord of the Heart
+let heartScale = 5; // scale of the Heart
+let heartHidden = false;
+
+let dogColor = "#a0c4ff"; // for the Dog
+let dogPosX = 100; // X coord of the Dog
+let dogPosY = 100; // Y coord of the Dog
+let dogScale = 5; // scale of the Dog
+let dogHidden = false;
+
+let starColor = "#ffd6a5"; // for the Star
+let starPosX = 380; // X coord of the Star
+let starPosY = 330; // Y coord of the Star
+let starScale = 8; // scale of the Star
+let starHidden = false;
+
+let heart2Color = "#ffc6ff"; // for the 2nd Heart
+let heart2PosX = 80; // X coord of the 2nd Heart
+let heart2PosY = 300; // Y coord of the 2nd Heart
+let heart2Scale = 5; // scale of the 2nd Heart
+let heart2Hidden = false;
+
+function setup_wallpaper(pWallpaper) {
+  createCanvas(2000, 1000);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 600;
+  pWallpaper.grid_settings.cell_height = 400;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 5: 
+//your parameter variables go here!
+let bgColor = "#00202e"; // light honeydew green colour for the Background
+
+let catColor = "#abcfff"; // for the Cat
+let catPosX = 350; // X coord of the Cat
+let catPosY = 300; // Y coord of the Cat
+let catScale = 7; // scale of the Cat
+let catHidden = false;
+
+let heartColor = "#ffadad"; // // for the Heart
+let heartPosX = 400; // X coord of the Heart
+let heartPosY = 100; // Y coord of the Heart
+let heartScale = 7; // scale of the Heart
+let heartHidden = true;
+
+let dogColor = "#f4ffba"; // for the Dog
+let dogPosX = 80; // X coord of the Dog
+let dogPosY = 100; // Y coord of the Dog
+let dogScale = 7; // scale of the Dog
+let dogHidden = false;
+
+let starColor = "#d7b0ff"; // for the Star
+let starPosX = 400; // X coord of the Star
+let starPosY = 100; // Y coord of the Star
+let starScale = 7; // scale of the Star
+let starHidden = false;
+
+let heart2Color = "#faaac7"; // for the 2nd Heart
+let heart2PosX = 80; // X coord of the 2nd Heart
+let heart2PosY = 300; // Y coord of the 2nd Heart
+let heart2Scale = 9; // scale of the 2nd Heart
+let heart2Hidden = false;
+
+function setup_wallpaper(pWallpaper) {
+  createCanvas(2000, 1000);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 600;
+  pWallpaper.grid_settings.cell_height = 400;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 6:
+//your parameter variables go here!
+let bgColor = "#ffffea"; // light honeydew green colour for the Background
+
+let catColor = "#abcfff"; // for the Cat
+let catPosX = 350; // X coord of the Cat
+let catPosY = 290; // Y coord of the Cat
+let catScale = 7; // scale of the Cat
+let catHidden = false;
+
+let heartColor = "#ff789c"; // // for the Heart
+let heartPosX = 400; // X coord of the Heart
+let heartPosY = 100; // Y coord of the Heart
+let heartScale = 9; // scale of the Heart
+let heartHidden = false;
+
+let dogColor = "#f4ffba"; // for the Dog
+let dogPosX = 80; // X coord of the Dog
+let dogPosY = 70; // Y coord of the Dog
+let dogScale = 7; // scale of the Dog
+let dogHidden = false;
+
+let starColor = "#ffd6a5"; // for the Star
+let starPosX = 240; // X coord of the Star
+let starPosY = 170; // Y coord of the Star
+let starScale = 5; // scale of the Star
+let starHidden = false;
+
+let heart2Color = "#faaac7"; // for the 2nd Heart
+let heart2PosX = 10; // X coord of the 2nd Heart
+let heart2PosY = 250; // Y coord of the 2nd Heart
+let heart2Scale = 9; // scale of the 2nd Heart
+let heart2Hidden = false;
+
+function setup_wallpaper(pWallpaper) {
+  createCanvas(2000, 1000);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 600;
+  pWallpaper.grid_settings.cell_height = 400;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 7:
+//your parameter variables go here!
+let bgColor = "#fec868"; // light honeydew green colour for the Background
+
+let catColor = "#f1f7b5"; // for the Cat
+let catPosX = 350; // X coord of the Cat
+let catPosY = 260; // Y coord of the Cat
+let catScale = 9; // scale of the Cat
+let catHidden = false;
+
+let heartColor = "#97ecf1"; // // for the Heart
+let heartPosX = 400; // X coord of the Heart
+let heartPosY = 100; // Y coord of the Heart
+let heartScale = 7; // scale of the Heart
+let heartHidden = false;
+
+let dogColor = "#dffdff"; // for the Dog
+let dogPosX = 10; // X coord of the Dog
+let dogPosY = 250; // Y coord of the Dog
+let dogScale = 7; // scale of the Dog
+let dogHidden = false;
+
+let starColor = "#bdb2ff"; // for the Star
+let starPosX = 240; // X coord of the Star
+let starPosY = 170; // Y coord of the Star
+let starScale = 5; // scale of the Star
+let starHidden = false;
+
+let heart2Color = "#faaac7"; // for the 2nd Heart
+let heart2PosX = 80; // X coord of the 2nd Heart
+let heart2PosY = 70; // Y coord of the 2nd Heart
+let heart2Scale = 9; // scale of the 2nd Heart
+let heart2Hidden = false;
+
+function setup_wallpaper(pWallpaper) {
+  createCanvas(2000, 1000);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 600;
+  pWallpaper.grid_settings.cell_height = 400;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 8:
+//your parameter variables go here!
+let bgColor = "#c9e4d2"; // light honeydew green colour for the Background
+
+let catColor = "#FFD6A5"; // for the Cat
+let catPosX = 360; // X coord of the Cat
+let catPosY = 240; // Y coord of the Cat
+let catScale = 8; // scale of the Cat
+let catHidden = false;
+
+let heartColor = "#ffa0c5"; // // for the Heart
+let heartPosX = 410; // X coord of the Heart
+let heartPosY = 5; // Y coord of the Heart
+let heartScale = 8; // scale of the Heart
+let heartHidden = false;
+
+let dogColor = "#dbadf0"; // for the Dog
+let dogPosX = 220; // X coord of the Dog
+let dogPosY = 100; // Y coord of the Dog
+let dogScale = 7; // scale of the Dog
+let dogHidden = false;
+
+let starColor = "#fdffb6"; // for the Star
+let starPosX = 600; // X coord of the Star
+let starPosY = 70; // Y coord of the Star
+let starScale = 8; // scale of the Star
+let starHidden = false;
+
+let heart2Color = "#ffadad"; // for the 2nd Heart
+let heart2PosX = 80; // X coord of the 2nd Heart
+let heart2PosY = 250; // Y coord of the 2nd Heart
+let heart2Scale = 8; // scale of the 2nd Heart
+let heart2Hidden = false;
+
+function setup_wallpaper(pWallpaper) {
+  createCanvas(2000, 1000);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 600;
+  pWallpaper.grid_settings.cell_height = 400;
+  pWallpaper.grid_settings.row_offset = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 9:
+//your parameter variables go here!
+let bgColor = "#fff0f1"; // light honeydew green colour for the Background
+
+let catColor = "#ffcae9"; // for the Cat
+let catPosX = 400; // X coord of the Cat
+let catPosY = 70; // Y coord of the Cat
+let catScale = 7; // scale of the Cat
+let catHidden = false;
+
+let heartColor = "#fa9bcf"; // // for the Heart
+let heartPosX = 350; // X coord of the Heart
+let heartPosY = 260; // Y coord of the Heart
+let heartScale = 9; // scale of the Heart
+let heartHidden = false;
+
+let dogColor = "#f4dbe9"; // for the Dog
+let dogPosX = 10; // X coord of the Dog
+let dogPosY = 250; // Y coord of the Dog
+let dogScale = 7; // scale of the Dog
+let dogHidden = false;
+
+let starColor = "#b0b5ed"; // for the Star
+let starPosX = 240; // X coord of the Star
+let starPosY = 170; // Y coord of the Star
+let starScale = 5; // scale of the Star
+let starHidden = false;
+
+let heart2Color = "#faaac7"; // for the 2nd Heart
+let heart2PosX = 60; // X coord of the 2nd Heart
+let heart2PosY = 30; // Y coord of the 2nd Heart
+let heart2Scale = 9; // scale of the 2nd Heart
+let heart2Hidden = false;
+
+function setup_wallpaper(pWallpaper) {
+  createCanvas(2000, 1000);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 600;
+  pWallpaper.grid_settings.cell_height = 400;
+  pWallpaper.grid_settings.row_offset = 100;
 }

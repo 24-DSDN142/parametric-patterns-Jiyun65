@@ -1,40 +1,40 @@
 //your parameter variables go here!
-let bgColor = "#F3DFE7"; // light honeydew green colour for the Background
+let bgColor = "#f3dfe7"; // light honeydew green colour for the Background
 
-let catColor = "#F5F4CE"; // for the Cat
-let catPosX = 260; // X coord of the Cat
-let catPosY = 180; // Y coord of the Cat
-let catScale = 8; // scale of the Cat
+let catColor = "#F5f4ce"; // for the Cat
+let catPosX = 200; // X coord of the Cat
+let catPosY = 160; // Y coord of the Cat
+let catScale = 7; // scale of the Cat
 let catHidden = false;
 
-let heartColor = "#C7E8FC"; // // for the Heart
-let heartPosX = 410; // X coord of the Heart
+let heartColor = "#c7e8fc"; // // for the Heart
+let heartPosX = 370; // X coord of the Heart
 let heartPosY = 60; // Y coord of the Heart
-let heartScale = 8; // scale of the Heart
+let heartScale = 7; // scale of the Heart
 let heartHidden = false;
 
-let dogColor = "#D8EDE8"; // for the Dog
-let dogPosX = 50; // X coord of the Dog
+let dogColor = "#d8ede8"; // for the Dog
+let dogPosX = 10; // X coord of the Dog
 let dogPosY = 250; // Y coord of the Dog
-let dogScale = 8; // scale of the Dog
+let dogScale = 7; // scale of the Dog
 let dogHidden = false;
 
-let starColor = "#F6D3ED"; // for the Star
-let starPosX = 450; // X coord of the Star
-let starPosY = 300; // Y coord of the Star
-let starScale = 8; // scale of the Star
+let starColor = "#f6d3ed"; // for the Star
+let starPosX = 380; // X coord of the Star
+let starPosY = 280; // Y coord of the Star
+let starScale = 7; // scale of the Star
 let starHidden = false;
 
-let heart2Color = "#FA9BCF"; // for the 2nd Heart
-let heart2PosX = 80; // X coord of the 2nd Heart
-let heart2PosY = 30; // Y coord of the 2nd Heart
-let heart2Scale = 8; // scale of the 2nd Heart
+let heart2Color = "#fa9bcf"; // for the 2nd Heart
+let heart2PosX = 10; // X coord of the 2nd Heart
+let heart2PosY = 50; // Y coord of the 2nd Heart
+let heart2Scale = 7; // scale of the 2nd Heart
 let heart2Hidden = false;
 
 function setup_wallpaper(pWallpaper) {
   createCanvas(2000, 1000);
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
