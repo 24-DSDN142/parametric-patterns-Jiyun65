@@ -1,34 +1,34 @@
 //your parameter variables go here!
-let bgColor = "#FFF0F9"; // light honeydew green colour for the Background
+let bgColor = "#F3DFE7"; // light honeydew green colour for the Background
 
-let catColor = "#E0F5CB"; // for the Cat
-let catPosX = 400; // X coord of the Cat
-let catPosY = 260; // Y coord of the Cat
-let catScale = 7; // scale of the Cat
-let catHidden = true;
+let catColor = "#F5F4CE"; // for the Cat
+let catPosX = 260; // X coord of the Cat
+let catPosY = 180; // Y coord of the Cat
+let catScale = 8; // scale of the Cat
+let catHidden = false;
 
-let heartColor = "#F5A6C1"; // // for the Heart
-let heartPosX = 450; // X coord of the Heart
-let heartPosY = 70; // Y coord of the Heart
-let heartScale = 7; // scale of the Heart
+let heartColor = "#C7E8FC"; // // for the Heart
+let heartPosX = 410; // X coord of the Heart
+let heartPosY = 60; // Y coord of the Heart
+let heartScale = 8; // scale of the Heart
 let heartHidden = false;
 
-let dogColor = "#FFFDD4"; // for the Dog
-let dogPosX = 70; // X coord of the Dog
-let dogPosY = 50; // Y coord of the Dog
-let dogScale = 7; // scale of the Dog
+let dogColor = "#D8EDE8"; // for the Dog
+let dogPosX = 50; // X coord of the Dog
+let dogPosY = 250; // Y coord of the Dog
+let dogScale = 8; // scale of the Dog
 let dogHidden = false;
 
-let starColor = "#DBEBFF"; // for the Star
-let starPosX = 240; // X coord of the Star
-let starPosY = 130; // Y coord of the Star
-let starScale = 7; // scale of the Star
+let starColor = "#F6D3ED"; // for the Star
+let starPosX = 450; // X coord of the Star
+let starPosY = 300; // Y coord of the Star
+let starScale = 8; // scale of the Star
 let starHidden = false;
 
 let heart2Color = "#FA9BCF"; // for the 2nd Heart
-let heart2PosX = 70; // X coord of the 2nd Heart
-let heart2PosY = 260; // Y coord of the 2nd Heart
-let heart2Scale = 7; // scale of the 2nd Heart
+let heart2PosX = 80; // X coord of the 2nd Heart
+let heart2PosY = 30; // Y coord of the 2nd Heart
+let heart2Scale = 8; // scale of the 2nd Heart
 let heart2Hidden = false;
 
 function setup_wallpaper(pWallpaper) {
